@@ -1,0 +1,217 @@
+body {
+    background-color: #242320;
+}
+
+.top-NavBar {
+    width: 1510px;
+    height: 82px;
+    background-color: #242320;
+    border: 2px solid #A35709
+}
+
+.Nav-Gyizer {
+    height: 28px;
+    width: 82px;
+    left: 48px;
+    top: 17px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-left: 40px;
+
+}
+
+.Nav-TodoApp {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+#input-title {
+    height: 32px;
+    width: 466px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #FF8303, #FF8303);
+    border: 1px solid #FF8303
+}
+
+#input-task {
+    height: 32px;
+    width: 466px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #FF8303, #FF8303);
+    border: 1px solid #FF8303;
+    margin-top: 4px;
+}
+
+#input-btn {
+    height: 70px;
+    width: 70px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    background: linear-gradient(0deg, #1B1A17, #1B1A17),
+        linear-gradient(0deg, #FF8303, #FF8303);
+    border: 2px solid #FF8303;
+    color: #FF8303;
+    font-size: 45px;
+}
+
+#all-tasks {
+    margin-top: 70px;
+    margin-left: 100px;
+    height: 426px;
+    width: 1306px;
+    border-radius: 8px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #A35709, #A35709);
+    border: 2px solid #A35709;
+    overflow:auto;
+    
+}
+.modal-footer{
+    padding-top:50px;
+    padding-right:82px;
+}
+
+#input-box {
+    margin-top: 59px;
+    margin-left: 450px;
+    width: 595px;
+}
+
+#task-boxs {
+    height: 72px;
+    width: 345px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 22px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #A35709, #A35709);
+    border: 2px solid #A35709
+}
+
+#tasks-box-cintains {
+    margin-left: 60px;
+}
+
+.box-task-title {
+    height: 26px;
+    width: 173.99998474121094px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.box-task-input {
+    height: 16px;
+    width: 261px;
+    left: 16px;
+    top: 46px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.my-button-edit{
+    color: white;
+    margin-top:2px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #A35709, #A35709);
+    border: 2px solid #A35709 ;
+    
+}
+.my-button-delete{
+    color: white;
+    margin-top:2px;
+    margin-left: 5px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #A35709, #A35709);
+    border: 2px solid #A35709 ;
+    
+}
+
+.box-tas-btn {
+    color: white;
+    margin-top: 5px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #A35709, #A35709);
+    border: 1px solid #A35709
+}
+.modal-content{
+height: 4.46875px;
+width: 300px;
+height: 150px;
+margin-top: 45%;
+margin-left: 15%;
+background-color:#1B1A17 ;
+}
+.modal-title{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+}
+.btn-default{
+height: 24px;
+width: 64px;
+border-radius: 4px;
+background: linear-gradient(0deg, #242320, #242320),
+linear-gradient(0deg, #A35709, #A35709);
+border: 1px solid #A35709;
+color: white;
+}
+
+@media screen and (max-width: 767px) {
+    #task-boxs  {
+        width: 500px;
+        margin-left: 300px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .modal-content{
+        margin-top: 20%;
+margin-left: 39%;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    #all-tasks{
+        border: 0px;
+    }
+  }
+  

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="Test.js"></script>
+    <link rel="stylesheet" href="Test.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div>
+        <div class="top-NavBar container">
+            <div class="Nav-Gyizer">GYIZER</div>
+            <div class="Nav-TodoApp"> TODO APP</div>
+        </div>
+    </div>
+
+    <!-- Input Field -->
+    <form>
+    <div class="row container" id="input-box">
+        <div class="col-xs-10">
+            <div><input id="input-title" type="text" placeholder="   Title......" ></div>
+            <div><input id="input-task" type="text" placeholder="   Input......" value=""></div>
+        </div>
+
+        <div class="col-xs-2 ">
+            <input type="submit"  id="input-btn" value="+">
+        </div>
+    </div>
+</form>
+
+  <!-- All Tesks Section -->
+    <div class="container" id="all-tasks">
+
+        <div class=" row" id="tasks-box-cintains">
+            <div class="col-sm-4 row" id="task-boxs">
+                <div class="col-xs-9">
+                    <div class="box-task-title">Task Title</div>
+                    <div class="box-task-input">Task body about this task...</div>
+                </div>
+                <div class="col-xs-3"><button class="btn box-tas-btn">i</button></div>
+            </div>
+            <div class="col-sm-4 row" id="task-boxs">
+                <div class="col-xs-9">
+                    <div class="box-task-title">Task Title</div>
+                    <div class="box-task-input">Task body about this task...</div>
+                </div>
+                <div class="col-xs-3"><button class="btn box-tas-btn">i</button></div>
+            </div>
+            <div class="col-sm-4 row" id="task-boxs">
+                <div class="col-xs-9">
+                    <div class="box-task-title">Task Title</div>
+                    <div class="box-task-input">Task body about this task...</div>
+                </div>
+                <div class="col-xs-3"><button class="btn box-tas-btn">i</button></div>
+            </div>
+        </div>
+        <div class=" row" id="tasks-box-cintains">
+            <div class="col-sm-4 row" id="task-boxs">
+                <div class="col-xs-9">
+                    <div class="box-task-title">Task Title</div>
+                    <div class="box-task-input">Task body about this task...</div>
+                </div>
+                <div class="col-xs-3"><button class="btn box-tas-btn">i</button></div>
+            </div>
+            <div class="col-sm-4 row" id="task-boxs">
+                <div class="col-xs-9">
+                    <div class="box-task-title">Task Title</div>
+                    <div class="box-task-input">Task body about this task...</div>
+                </div>
+                <div class="col-xs-3"><button class="btn box-tas-btn">i</button></div>
+            </div>
+            <div class="col-sm-4 row" id="task-boxs">
+                <div class="col-xs-9">
+                    <div class="box-task-title">Task Title</div>
+                    <div class="box-task-input">Task body about this task...</div>
+                </div>
+                <div class="col-xs-3"><button class="btn box-tas-btn">i</button></div>
+            </div>
+
+        </div>
+        <div class=" row" id="tasks-box-cintains">
+            <div class="col-sm-4 row" id="task-boxs">
+                <div class="col-xs-9">
+                    <div class="box-task-title">Task Title</div>
+                    <div class="box-task-input">Task body about this task...</div>
+                </div>
+                <div class="col-xs-3"><button class="btn box-tas-btn">i</button></div>
+            </div>
+            <div class="col-sm-4 row" id="task-boxs">
+                <div class="col-xs-9">
+                    <div class="box-task-title">Task Title</div>
+                    <div class="box-task-input">Task body about this task...</div>
+                </div>
+                <div class="col-xs-3"><button class="btn box-tas-btn">i</button></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Delete This Task?</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default">Yes</button><button type="button"
+                        class="btn btn-default" data-dismiss="modal">No</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        $(".box-tas-btn").click(function () {
+            $(".box-tas-btn").html("<button  onclick = 'fun()' id='first-button' class='my-button-edit '>!</button><button type='button' class='my-button-edit ' data-toggle='modal' data-target='#myModal'>×</button>");
+        });
+
+        function fun() {
+            var txt = "Update Tasks...............";
+            var ttx = "UPDATE"
+            document.getElementById("input-task").value = txt;
+            document.getElementById("input-task").style.cssText = "color:white;  height:40px; overflow:auto;";
+            document.getElementById("input-btn").value = ttx;
+            document.getElementById("input-btn").style.cssText = "font-size:14px";
+        }
+
+    </script>
+</body>
+
+
+</html>
