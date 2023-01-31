@@ -1,0 +1,243 @@
+body {
+    background-color: #242320;
+}
+
+
+.top-NavBar {
+    width: 1510px;
+    height: 82px;
+    background-color: #242320;
+    border: 2px solid #A35709
+}
+
+.Nav-Gyizer {
+    height: 28px;
+    width: 82px;
+    left: 48px;
+    top: 17px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-left: 40px;
+
+}
+
+.Nav-TodoApp {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+#title-input {
+    height: 32px;
+    width: 466px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #FF8303, #FF8303);
+    border: 1px solid #FF8303;
+    color: white
+}
+
+#content-input {
+    height: 32px;
+    width: 466px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #FF8303, #FF8303);
+    border: 1px solid #FF8303;
+    margin-top: 4px;
+    color: white
+}
+
+#add-button {
+    height: 70px;
+    width: 70px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    background: linear-gradient(0deg, #1B1A17, #1B1A17),
+        linear-gradient(0deg, #FF8303, #FF8303);
+    border: 2px solid #FF8303;
+    color: #FF8303;
+    font-size: 45px;
+}
+
+
+#input-box {
+    margin-top: 59px;
+    margin-left: 450px;
+    width: 595px;
+}
+
+
+#all-tasks-box {
+    margin-top: 70px;
+    margin-left: 100px;
+    height: 426px;
+    width: 1306px;
+    border-radius: 8px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #A35709, #A35709);
+    border: 2px solid #A35709;
+    overflow: auto;
+}
+
+.All-todo-task {
+    
+    height: 72px;
+    width: 345px;
+    border-radius: 8px;
+    margin: 22px;
+    background: linear-gradient(0deg, #242320, #242320),
+        linear-gradient(0deg, #A35709, #A35709);
+    border: 2px solid #A35709;
+    float: left;
+}
+
+.todo-title {
+    margin-top: 2px;
+   
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F0E3CA;
+}
+
+.todo-input {
+    
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F0E3CA;
+}
+
+
+.edit-button{
+    height: 32px;
+width: 32px;
+border-radius: 6px;
+background: linear-gradient(0deg, #1B1A17, #1B1A17),
+linear-gradient(0deg, #A35709, #A35709);
+border: 2px solid #A35709;color:white
+}
+.delete-button{
+    height: 32px;
+width: 32px;
+border-radius: 6px;
+background: linear-gradient(0deg, #1B1A17, #1B1A17),
+linear-gradient(0deg, #A35709, #A35709);
+border: 2px solid #A35709;
+color:white 
+}
+.title-data-btn{
+ margin-top: 20px;
+ overflow: hidden;
+ 
+}
+.title-data{
+    border: #242320 solid;
+    overflow: hidden;
+    
+}
+.todo-title{
+    width: 210px;
+    height: 20px;
+    overflow: hidden;
+}
+.todo-input{
+    width: 220px;
+    height: 20px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 678px) {
+    #all-tasks-box {
+      width: 500px;
+      margin-left: 500px;
+      padding-left: 50px;
+    }
+  }
+  @media only screen and (max-width: 678px) {
+    #all-tasks-box {
+      width: 500px;
+      margin-left: 500px;
+    }
+  }
+
+
+
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .yes-button {
+    height: 24px;
+width: 64px;
+left: 0px;
+top: 0px;
+border-radius: 4px;
+background: linear-gradient(0deg, #242320, #242320),
+linear-gradient(0deg, #A35709, #A35709);
+border: 1px solid #A35709
+;margin-left: 50px;
+margin-top: 38px;
+  }
+  .no-button{
+    height: 24px;
+    width: 64px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #242320, #242320),
+    linear-gradient(0deg, #A35709, #A35709);
+    border: 1px solid #A35709
+  }
+  .popup-title{
+    margin-left: 65px;
+  }
+.save-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70px;
+    width: 70px;
+ margin-left: 950px;
+  margin-top: 141px;
+  border-radius: 8px;
+  background: linear-gradient(0deg, #1B1A17, #1B1A17),
+      linear-gradient(0deg, #FF8303, #FF8303);
+  border: 2px solid #FF8303;
+  color: #FF8303;
+  font-size: 15px;
+}
